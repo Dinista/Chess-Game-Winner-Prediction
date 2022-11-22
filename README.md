@@ -31,3 +31,7 @@ The dataset originally has 20056 rows and a total of 16 columns defined this way
 <li>Opening Eco (Opening type id);</li>
 <li>Opening Name;</li>
 </ul>
+
+## Input
+
+The set of parameters in the learning algorithms are the inputs that changes the efficiency in the results
