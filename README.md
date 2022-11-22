@@ -21,13 +21,13 @@ The dataset originally has 20056 rows and a total of 16 columns defined this way
 <li>End Time;</li>
 <li>Number of Turns;</li>
 <li>Victory Status (Status of the end of the match);</li>
-<li>Winner (Winner of the match);</li>
+<li>Winner;</li>
 <li>Time Increment (increment time of each turn);</li>
-<li>White Player ID (white pieces player ID);</li>
-<li>White Player Rating (Rank of the player with the white pieces);</li>
-<li>Black Player ID (player identifier with the black pieces);</li>
-<li>Black Player Rating (Rank of the player with black pieces);</li>
+<li>White Player ID;</li>
+<li>White Player Rating;</li>
+<li>Black Player ID;</li>
+<li>Black Player Rating;</li>
 <li>All Moves in Standard Chess Notation (All moves in the game);</li>
-<li>Opening Eco (Opening type identifier code);</li>
+<li>Opening Eco (Opening type id);</li>
 <li>Opening Name;</li>
 </ul>
