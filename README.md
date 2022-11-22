@@ -8,4 +8,26 @@ The objective of this project is to use the <b>database</b> from an online chess
 
 ## How it works
 
-The dataset (<b>games.csv</b>) was taken from the website <a href="https://www.kaggle.com/datasets/datasnaek/chess">Kaggle</a>, and was the input to train the two learning models implemented: <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">K-Nearest Neighbors</a> and <a href="https://en.wikipedia.org/wiki/Random_forest"> Random Forest </a>. <b>Hyper-parameterization</b> was also used to improve the result, testing different parameters for the models functions.
+The dataset (<b>games.csv</b>) was taken from the website <a href="https://www.kaggle.com/datasets/datasnaek/chess">Kaggle</a>, and was the input to train the two learning models implemented: <a href="https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm">K-Nearest Neighbors</a> (KNN) and <a href="https://en.wikipedia.org/wiki/Random_forest"> Random Forest</a> (RF). Hyper-parameterization was also used to improve the result, testing different parameters for the models functions, one being <b>Grid Search</b> on the KNN and the other being <b>Random Search</b> on the RF.
+
+## Data-set
+
+The dataset originally has 20056 rows and a total of 16 columns defined this way:
+
+<ul>
+<li>Game ID (Game ID);</li>
+<li>Rated (T/F) (If it's a ranked match);</li>
+<li>Start Time;</li>
+<li>End Time;</li>
+<li>Number of Turns;</li>
+<li>Victory Status (Status of the end of the match);</li>
+<li>Winner (Winner of the match);</li>
+<li>Time Increment (increment time of each turn);</li>
+<li>White Player ID (white pieces player ID);</li>
+<li>White Player Rating (Rank of the player with the white pieces);</li>
+<li>Black Player ID (player identifier with the black pieces);</li>
+<li>Black Player Rating (Rank of the player with black pieces);</li>
+<li>All Moves in Standard Chess Notation (All moves in the game);</li>
+<li>Opening Eco (Opening type identifier code);</li>
+<li>Opening Name;</li>
+</ul>
