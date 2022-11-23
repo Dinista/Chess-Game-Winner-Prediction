@@ -34,4 +34,23 @@ The dataset originally has 20056 rows and a total of 16 columns defined this way
 
 ## Input
 
-The set of parameters in the learning algorithms are the inputs that changes the efficiency in the results
+The set of parameters in the learning algorithms are the inputs that changes the efficiency in the results, in line <b>57</b> and <b>74</b>.
+
+RF parameters:
+
+```python
+# números de amostra aleatória de 4 a 204
+'n_estimators': [4, 200],
+# max_fetures normalmente distribuídos, com média 0,25 stddev 0,1, limitado entre 0 e 1
+'max_features': truncnorm(a=0, b=1, loc=0.25, scale=0.1),
+# distrubuição uniforme de 0.01 a 0.2 (0.01 + 0.199)
+'min_samples_split': [2 ,5 ,10],
+'max_depth':[10, 50, 100],
+```
+
+KNN parameters:
+
+```python
+param_grid_knn = [ {'n_neighbors': [1, 5, 10, 25, 50, 750], 'weights':
+['distance','uniform'],'leaf_size': [1, 5, 10, 25, 50, 750], 'p':[1, 2]},]
+```
